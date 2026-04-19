@@ -1,0 +1,143 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.0">
+  <diagram id="7ac91c9_CYBIp-0gwyT7" name="Страница 1">
+    <mxGraphModel dx="1226" dy="-3902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g7hA280cSHpAfKu-B-t--48" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;" value="par" vertex="1">
+          <mxGeometry height="220" width="675" x="485" y="5040" as="geometry" />
+        </mxCell>
+        <mxCell id="g7hA280cSHpAfKu-B-t--3" parent="1" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=25;" value="" vertex="1">
+          <mxGeometry height="1050" width="20" x="40" y="4860" as="geometry" />
+        </mxCell>
+        <mxCell id="g7hA280cSHpAfKu-B-t--4" edge="1" parent="g7hA280cSHpAfKu-B-t--3" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;rounded=1;fontSize=14;entryX=0.069;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" target="g7hA280cSHpAfKu-B-t--19" value="Запрос списка фильмов &lt;br&gt;и сериалов Otium &lt;br&gt;(с фильтрами и сортировкой)">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="10" y="120" as="sourcePoint" />
+            <mxPoint x="70" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g7hA280cSHpAfKu-B-t--5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" value="Web Server" vertex="1">
+          <mxGeometry height="1020" width="215" x="470" y="4860" as="geometry" />
+        </mxCell>
+        <mxCell id="g7hA280cSHpAfKu-B-t--6" parent="g7hA280cSHpAfKu-B-t--5" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22html%3D1%3Bpoints%3D%5B%5D%3Bperimeter%3DorthogonalPerimeter%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22565%22%20y%3D%225290%22%20width%3D%2210%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="820" width="10" x="105" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8ls1gTeXbY_8odH4ZYZD-6" edge="1" parent="g7hA280cSHpAfKu-B-t--5" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;fontSize=25;startFill=0;endFill=0;dashed=1;exitX=-0.05;exitY=0.205;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Inter, system-ui, -apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;список всех сериалов&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.001" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="605" y="370" as="sourcePoint" />
+            <mxPoint x="115" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4mOsAAnW4AAq8PGoUQ5R-1" parent="g7hA280cSHpAfKu-B-t--5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="105" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="4mOsAAnW4AAq8PGoUQ5R-2" edge="1" parent="g7hA280cSHpAfKu-B-t--5" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="Применить фильтры">
+          <mxGeometry relative="1" x="0.0344" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="155" y="570" />
+              <mxPoint x="155" y="611" />
+            </Array>
+            <mxPoint x="115" y="570" as="sourcePoint" />
+            <mxPoint x="115" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ls1gTeXbY_8odH4ZYZD-3" edge="1" parent="g7hA280cSHpAfKu-B-t--5" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;fontSize=25;startFill=0;endFill=0;dashed=1;exitX=0.186;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Inter, system-ui, -apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;список всех фильмов&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.001" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="365.8599999999997" y="279.8000000000002" as="sourcePoint" />
+            <mxPoint x="115" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vb6bTpD33O4KJj9tmIXZ-11" parent="g7hA280cSHpAfKu-B-t--5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="105" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="4mOsAAnW4AAq8PGoUQ5R-4" edge="1" parent="g7hA280cSHpAfKu-B-t--5" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="Применить сортировку">
+          <mxGeometry relative="1" x="0.0344" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="155" y="780" />
+              <mxPoint x="155" y="821" />
+            </Array>
+            <mxPoint x="115" y="780" as="sourcePoint" />
+            <mxPoint x="115" y="821" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g7hA280cSHpAfKu-B-t--9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" value="Series Server" vertex="1">
+          <mxGeometry height="970" width="160" x="995" y="4860" as="geometry" />
+        </mxCell>
+        <mxCell id="8ls1gTeXbY_8odH4ZYZD-5" parent="g7hA280cSHpAfKu-B-t--9" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="75" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="g7hA280cSHpAfKu-B-t--13" edge="1" parent="1" source="g7hA280cSHpAfKu-B-t--19" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=1;fontSize=25;entryX=-0.044;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;" target="g7hA280cSHpAfKu-B-t--6" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;GET {{WebServer}}&lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;/&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-offset-key=&quot;a3p1t-1-0&quot;&gt;&lt;span style=&quot;&quot; data-text=&quot;true&quot;&gt;content/list&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="245" y="4940" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g7hA280cSHpAfKu-B-t--18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" value="UI: Otium" vertex="1">
+          <mxGeometry height="1050" width="150" x="235" y="4860" as="geometry" />
+        </mxCell>
+        <mxCell id="g7hA280cSHpAfKu-B-t--19" parent="g7hA280cSHpAfKu-B-t--18" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="840" width="10" x="70" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="g7hA280cSHpAfKu-B-t--42" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" value="Films Server" vertex="1">
+          <mxGeometry height="970" width="160" x="750" y="4860" as="geometry" />
+        </mxCell>
+        <mxCell id="8ls1gTeXbY_8odH4ZYZD-2" parent="g7hA280cSHpAfKu-B-t--42" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="75" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8ls1gTeXbY_8odH4ZYZD-1" edge="1" parent="g7hA280cSHpAfKu-B-t--42" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=1;fontSize=25;entryX=-0.044;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;GET {{FilmsServer}}&lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;/films&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-offset-key=&quot;a3p1t-1-0&quot;&gt;&lt;span style=&quot;&quot; data-text=&quot;true&quot;&gt;/list&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.001" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-170" y="230" as="sourcePoint" />
+            <mxPoint x="75" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ls1gTeXbY_8odH4ZYZD-9" edge="1" parent="1" source="g7hA280cSHpAfKu-B-t--5" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;startFill=0;endFill=0;dashed=1;" value="Итоговый список контента&amp;nbsp;&lt;br&gt;(с учетом фильтров и сортировки )">
+          <mxGeometry relative="1" x="-0.001" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="550" y="5760" as="sourcePoint" />
+            <mxPoint x="320" y="5760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vb6bTpD33O4KJj9tmIXZ-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(Если переданы параметры фильтрации)" vertex="1">
+          <mxGeometry height="30" width="220" x="560" y="5490" as="geometry" />
+        </mxCell>
+        <mxCell id="vb6bTpD33O4KJj9tmIXZ-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(Если переданы параметры сортировки)" vertex="1">
+          <mxGeometry height="30" width="220" x="590" y="5690" as="geometry" />
+        </mxCell>
+        <mxCell id="vb6bTpD33O4KJj9tmIXZ-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Логика из интервью:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 1. Сортировка по выбранному полю&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 2. **Nulls Last**: Элементы без рейтинга&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;помещаются в конец списка&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="240" x="820" y="5600" as="geometry" />
+        </mxCell>
+        <mxCell id="8ls1gTeXbY_8odH4ZYZD-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;startFill=0;endFill=0;dashed=1;entryX=1.017;entryY=0.307;entryDx=0;entryDy=0;entryPerimeter=0;" value="Отображение списка">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="170" y="5810" />
+            </Array>
+            <mxPoint x="300" y="5810" as="sourcePoint" />
+            <mxPoint x="50" y="5810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ls1gTeXbY_8odH4ZYZD-4" edge="1" parent="1" source="g7hA280cSHpAfKu-B-t--6" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=1;fontSize=25;entryX=-0.235;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;exitX=0.888;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;" target="8ls1gTeXbY_8odH4ZYZD-5" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;GET {{SeriesServer}}&lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;/series&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-offset-key=&quot;a3p1t-1-0&quot;&gt;&lt;span style=&quot;&quot; data-text=&quot;true&quot;&gt;/list&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.001" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="595" y="5183.52" as="sourcePoint" />
+            <mxPoint x="1091.47" y="5179.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4mOsAAnW4AAq8PGoUQ5R-3" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="OPT" vertex="1">
+          <mxGeometry height="110" width="380" x="1100" y="6160" as="geometry" />
+        </mxCell>
+        <mxCell id="4mOsAAnW4AAq8PGoUQ5R-6" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="OPT" vertex="1">
+          <mxGeometry height="110" width="380" x="480" y="5420" as="geometry" />
+        </mxCell>
+        <mxCell id="4mOsAAnW4AAq8PGoUQ5R-7" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="OPT" vertex="1">
+          <mxGeometry height="110" width="580" x="480" y="5620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
